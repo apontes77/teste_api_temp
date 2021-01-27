@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apontes77/teste_api_temp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apontes77/teste_api_temp/issues"
+  },
+  "homepage": "https://github.com/apontes77/teste_api_temp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
