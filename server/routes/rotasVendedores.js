@@ -13,14 +13,16 @@ router.get('/vendedores/:id', async function (req, res) {
     
 })
 router.put('/vendedores/:id', async function (req, res) {
-    const id = req.body.id;
-    const status = req.body.status;
 
-    if(this.id==id) {
-       status = res.body.status;
-    }
+    const id = parseInt(req.params.id);
+    const { nome, empresa, url_foto_perfil, status } = req.body;
 
-    return status
+    // const response = await db.query(
+    //     "UPDATE vendedores SET nome = $1, empresa = $2, url_foto_perfil = $3, status= $4 WHERE id = $5",
+    //     [nome, empresa, url_foto_perfil, status, id]
+    // );
+
+    res.status(200).send({ message: "Vendedor com status corretamente atualizado!"});
 })
 
 
