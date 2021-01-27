@@ -5,6 +5,9 @@ const express = require('express');
 const router = express.Router()
 
 router.get('/vendedores', async function (req, res) {
+
+    // const response = await db.query('SELECT * FROM vendedores ORDER BY nome ASC');
+    // res.status(200).send(response.rows);
     
     res.json(dados);
 
