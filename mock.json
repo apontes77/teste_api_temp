@@ -1,0 +1,34 @@
+{
+    "vendedores":
+    [
+        {
+            "id":1,
+            "nome":"Joe Green",
+            "empresa":"AMZN SERVICOS DO BRASIL",
+            "url_foto_perfil":"https://unsplash.com/photos/c_GmwfHBDzk",
+            "status":"OCUPADO"
+        },
+        {
+            "id":2,
+            "nome":"Maria Brown",
+            "empresa":"AMZN SERVICOS DO BRASIL",
+            "url_foto_perfil":"https://unsplash.com/photos/rDEOVtE7vOs",
+            "status":"AUSENTE"
+        },
+        {
+            "id":3,
+            "nome":"Bob Black",
+            "empresa":"AMZN SERVICOS DO BRASIL",
+            "url_foto_perfil":"https://unsplash.com/photos/B8txujo1E3w",
+            "status":"DISPONÍVEL"
+        },
+        {
+            "id":4,
+            "nome":"Mark Blue",
+            "empresa":"AMZN SERVICOS DO BRASIL",
+            "url_foto_perfil":"https://unsplash.com/photos/c_GmwfHBDzk",
+            "status":"DISPONÍVEL"
+        }
+
+    ]
+}
