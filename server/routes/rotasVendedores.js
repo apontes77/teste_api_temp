@@ -12,6 +12,22 @@ router.get('/vendedores', async function (req, res) {
     res.json(dados);
 
 })
+
+router.post('/vendedores', async function (req, res) {
+
+    const dadosNovoVendedor =  {
+        login: "",
+        full_name: "",
+        email: ""
+    } = req.body
+
+    
+
+
+    res.status(201).send({ message: "Vendedor inserido na API ConnectyCube com sucesso!"})
+
+})
+
 router.get('/vendedores/:id', async function (req, res) {
     
 })
